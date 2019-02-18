@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Enter username whose friends you want to check</h1>
+<form action="/map" method="post">
+    <input name="name" placeholder="name" type="text"/>
+    <input type="submit" value="Done"/>
+</form>
+{% endblock %}
